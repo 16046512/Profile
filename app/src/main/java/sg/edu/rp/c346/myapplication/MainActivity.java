@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences.Editor prefEdit=prefs.edit();
         prefEdit.putString("greeting","Hello!");
         prefEdit.commit();
+        //
     }
 
     @Override
